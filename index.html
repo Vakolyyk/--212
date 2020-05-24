@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang "en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./main.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/b74933a694.js" crossorigin="anonymous"></script>
+        <title>iMovie</title>
+    </head>
+    <body>
+		<script>
+			window.addEventListener("load", function(event) {
+				console.log("Page finished loading!");
+			});
+		</script>
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__logo">iMovie</div>
+                    <nav>
+                        <ul class="menu">
+                        <li><a class="nav__link" href="index.html">Home</a></li>       
+                        <li><a class="nav__link" href="table.html">Watch</a>
+                            <ul>
+                                <li class="menu__inner"><a href="">Action</a></li>
+                                <li class="menu__inner"><a href="">Comedy</a></li>
+                                <li class="menu__inner"><a href="">Fantasy</a></li>
+                                <li class="menu__inner"><a href="">Cartoon</a></li>
+                                <li class="menu__inner"><a href="">Serial</a></li>
+                            </ul>    
+                        </li>
+                        <li><a class="nav__link" href="login.html">Log in</a></li>
+                        <li><a class="nav__link" href="registration.html">Register</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="section">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Recommendations</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="film">
+                            <div class="film__img">
+                                <img src="img/1.jpg" alt="film">
+                                <div class="film__hover">
+                                    <a href="#" class="film__button" id = "watch" >Watch Now</a>
+                                </div>     
+                            </div>
+                        <div class="film__title">Green Book</div>
+                        <div class="film__type">2018, comedy-drama</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="film">
+                            <div class="film__img">
+                                <img src="img/2.jpg" alt="film">
+                                <div class="film__hover">
+                                    <a href="#" class="film__button">Watch Now</a>
+                                </div> 
+                            </div>
+                        <div class="film__title">Bohemoian Rhapsody</div>
+                        <div class="film__type">2018,  biographical drama</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="film">
+                            <div class="film__img">
+                                <img src="img/3.jpg" alt="film">
+                                <div class="film__hover">
+                                    <a href="#" class="film__button">Watch Now</a>
+                                </div> 
+                            </div>
+                        <div class="film__title">The Wither</div>
+                        <div class="film__type">2019,  action, adventure, drama </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="film">
+                            <div class="film__img">
+                                <img src="img/4.jpg" alt="film">
+                                <div class="film__hover">
+                                    <a href="#" class="film__button">Watch Now</a>
+                                </div> 
+                            </div>
+                        <div class="film__title">1917</div>
+                        <div class="film__type">2019, war movie, drama</div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+			<script> 
+				var wtch = document.getElementById('watch');
+				wtch.ondblclick = function (){
+					this.style.background = "black";
+				}
+			</script>
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">New Films</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="film">
+                            <div class="film__img">
+                                <img src="img/8.jpg" alt="film">
+                                <div class="film__hover">
+                                    <a href="#" class="film__button">Watch Now</a>
+                                </div>     
+                            </div>
+                        <div class="film__title">Fantasy Island</div>
+                        <div class="film__type">2020, horror, fantasy</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="film">
+                            <div class="film__img">
+                                <img src="img/5.jpg" alt="film">
+                                <div class="film__hover">
+                                    <a href="#" class="film__button">Watch Now</a>
+                                </div> 
+                            </div>
+                        <div class="film__title">Dolittle</div>
+                        <div class="film__type">2020,  fantasy, family movie</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="film">
+                            <div class="film__img">
+                                <img src="img/6.jpg" alt="film">
+                                <div class="film__hover">
+                                    <a href="#" class="film__button">Watch Now</a>
+                                </div> 
+                            </div>
+                        <div class="film__title">Sonic: The Hedgehog</div>
+                        <div class="film__type">2020,  adventure movie, comedy </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="film">
+                            <div class="film__img">
+                                <img src="img/7.jpg" alt="film">
+                                <div class="film__hover">
+                                    <a href="#" class="film__button">Watch Now</a>
+                                </div> 
+                            </div>
+                        <div class="film__title">The Gentlemen</div>
+                        <div class="film__type">2020, crime, action</div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">New Trailers</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="film">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/RxAtuMu_ph4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="film__title">Black Widow</div>
+                        <div class="film__type">2020, adventure movie, superhero movie</div>
+                        </div>
+                    </div>
+                   <div class="col-md-3">
+                        <div class="film">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/f_HvoipFcA8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="film__title">Jungle Cruise</div>
+                        <div class="film__type">2020, adventure movie, fantasy</div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-nav">
+                    <a href="" class="footer-nav__link">YOUR ACCOUNT</a>
+                    <a href="" class="footer-nav__link">CONTACT US</a>
+                    <a href="" class="footer-nav__link">TERMS OF SERVICE</a>
+                </div>
+                <div class="footer__icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="footer__copyright">Copyright &#169 2020 iMovie. All Rights Reserved. Designed by Vakolyyk</div>
+            </div>
+        </footer>
+    </body>
+</html>
